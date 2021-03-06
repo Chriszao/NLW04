@@ -14,6 +14,15 @@
         flex-direction: column;
     }
 
+    .img {
+        margin: 5px;
+        height: 200px;
+        width: 400px;
+        flex: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
     .value {
         padding: 10px;
         margin: 1px;
@@ -40,10 +49,15 @@
 </style>
 
 <div class="container">
+
+
     <label>Olá <strong>{{name}}</strong>! Tudo bem?</label>
 
     <h3>{{title}}</h3>
     <br />
+
+    <img class="img" src={{image}}>
+
     <strong>{{description}}</strong>
 
     <div class="level">

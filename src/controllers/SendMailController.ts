@@ -38,6 +38,7 @@ class SendMailController {
       description: survey.description,
       user_id: user.id,
       link: process.env.URL_MAIL,
+      image: "https://miro.medium.com/max/2400/1*viMDiyH9fN7cmcM0n3qqIg.gif",
     };
 
     const npsPath = resolve(__dirname, "..", "views", "emails", "npsMail.hbs");

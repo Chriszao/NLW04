@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import express, { response } from "express";
+import express from "express";
 import createConnection from './database';
 import { router } from './routes';
 
